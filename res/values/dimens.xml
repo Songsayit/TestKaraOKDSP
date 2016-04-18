@@ -1,0 +1,6 @@
+<resources>
+
+    <dimen name="radio_text_size">50sp</dimen>
+    <dimen name="boost_text_size">20sp</dimen>
+
+</resources>

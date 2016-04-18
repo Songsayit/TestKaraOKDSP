@@ -1,0 +1,127 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${packageName}.${activityClass}" >
+
+    <LinearLayout
+        android:id="@+id/reverb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8"
+        android:background="@drawable/homescreen_blue_normal_holo"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txt_reverb"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/boost_text_size"
+            android:gravity="center"
+            android:background="@drawable/homescreen_blue_normal_holo"
+            android:text="@string/reverb" />
+
+        <ListView
+            android:id="@+id/reg_control_list_reverb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/echo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8"
+        android:background="@drawable/homescreen_blue_normal_holo"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txt_echo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/boost_text_size"
+            android:gravity="center"
+            android:background="@drawable/homescreen_blue_normal_holo"
+            android:text="@string/echo" />
+
+        <ListView
+            android:id="@+id/reg_control_list_echo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/dry"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/homescreen_blue_normal_holo"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txt_dry"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/boost_text_size"
+            android:gravity="center"
+            android:background="@drawable/homescreen_blue_normal_holo"
+            android:text="@string/dry" />
+
+        <ListView
+            android:id="@+id/reg_control_list_dry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+    </LinearLayout>
+    
+     <LinearLayout
+        android:id="@+id/effect"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/homescreen_blue_normal_holo"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txt_effect"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/boost_text_size"
+            android:gravity="center"
+            android:background="@drawable/homescreen_blue_normal_holo"
+            android:text="@string/effect" />
+
+        <ListView
+            android:id="@+id/reg_control_list_effect"
+           	android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+    </LinearLayout>
+    
+     <LinearLayout
+        android:id="@+id/master"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/homescreen_blue_normal_holo"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txt_master"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/boost_text_size"
+            android:gravity="center"
+            android:background="@drawable/homescreen_blue_normal_holo"
+            android:text="@string/master" />
+
+        <ListView
+            android:id="@+id/reg_control_list_master"
+             android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

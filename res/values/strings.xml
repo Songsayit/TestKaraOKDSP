@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">testDSP</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="reverb">混响</string>
+    <string name="time">时间</string>
+    <string name="LPF">齿音</string>
+    <string name="output_volume">Output Volume</string>
+    <string name="on_off">On/Off</string>
+    <string name="echo">回音</string>
+    <string name="delay">延迟</string>
+    <string name="repeat">重复</string>
+    <string name="dry">直接音</string>
+    <string name="volume">音量</string>
+    <string name="effect">效果音</string>
+    <string name="master">总输出</string>
+    <string name="add">加 </string>
+    <string name="sub">减</string>
+    <string name="start">启动</string>
+    <string name="stop">停止</string>
+    <string name="save">保存</string>
+	<string name="dialog_warn">警告! </string>
+    <string name="dialog_msg">是否删掉此条目? </string>
+    <string name="pre_init">正在初始化</string>
+    <string name="init_finished">初始化完成, 用时: </string>
+    <string name="start_playback_capture">启动边录边放测试</string>
+</resources>
